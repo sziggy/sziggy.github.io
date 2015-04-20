@@ -1,0 +1,84 @@
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html { 
+  background: url(Images/Backgrounds/mainBackground.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+header{
+  background: url(Images/Backgrounds/headerBg.png);
+  position: relative;
+  left: 5%;
+  width: 90%;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; /* future proofing */
+  -khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+
+#Name {
+ position: relative;
+    left: 50px;
+
+}
+
+#SubName {
+ position: relative;
+    left: 50px;
+
+ font-size: 125%;
+ top: -20px;
+
+}
+
+/*
+ * Header
+ */
+
+#TopNav {
+  text-align: center;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: black; /* IE8 proofing */
+  color: black;
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: gray;
+  border-bottom-color: #fff;
+}
