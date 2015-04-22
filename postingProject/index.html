@@ -16,31 +16,19 @@
 	<div>
               <nav id="TopNav">
                 <ul class="nav masthead-nav">
-                  <li><a href="index.html">About Me</a></li>
+                  <li class="active"><a href="index.html">About Me</a></li>
                   <li><a href="#">Goals</a></li>
-                  <li class="active"><a href="projects.html">Projects</a></li>
+                  <li><a href="projects.html">Projects</a></li>
                   <li><a href="contact.html">Contact</a></li>
                 </ul>
               </nav>
 
-<h1 id="Name">Projects</h1>
-<p id="SubName">&nbsp</p>
-</div>
-</div>
-</header>
+<!-- Body, main section -->
 
 <body>
-<h3>Simple posting; Website Developement project &nbsp&nbsp&nbsp 4/21/2015</h3>
-<link><a href="postingProject/index.html">Link</a></link>
-
-
-
-
-<!-- Footer -->
-
-<div class="Footer">
-<footer>Ziggy&#8482</footer>
-</div>
-
+  <form action="upload.php" method="POST" enctype="multipart/form-data">
+    Select image to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload Image" name="submit">
+  </form>
 </body>
-</html>

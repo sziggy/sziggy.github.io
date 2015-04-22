@@ -1,0 +1,19 @@
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+
+/*
+ * Base structure
+ */
+
+html {
+/*background-color: #404040;
+*background-image: url(Images/Backgrounds/45-degree-fabric-light.png); */
+background-color: #b0b0b0;
+background-image: url(http://www.transparenttextures.com/patterns/black-linen-2.png);
+}
