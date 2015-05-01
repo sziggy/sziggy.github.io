@@ -1,8 +1,13 @@
 /* Links */
-a,
-a:focus,
+a {
+       display: block;
+       background: url(../images/sprite.png) no-repeat;
+       height: 30px;
+       width: 250px;
+}
+
 a:hover {
-  color: #fff;
+       background-position: 0 -30px;
 }
 
 
@@ -92,3 +97,10 @@ header{
 
 
 
+img {
+  position: relative;
+  vertical-align: top;
+  width: 250px;
+  height: 250px;
+  left: 800px;
+}

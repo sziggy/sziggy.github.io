@@ -5,7 +5,18 @@ a:hover {
   color: #fff;
 }
 
+/* Links */
+a {
+       display: block;
+       background: url(images/sprite.png) no-repeat;
+       height: 30px;
+       width: 250px;
+}
 
+a:hover > #TopNav {
+       background-position: 0 -30px;
+}
+/
 
 /*
  * Base structure
@@ -14,8 +25,7 @@ a:hover {
 html {
 /*background-color: #404040;
 *background-image: url(Images/Backgrounds/45-degree-fabric-light.png); */
-background-color: #b0b0b0;
-background-image: url(http://www.transparenttextures.com/patterns/black-linen-2.png);
+
 }
 
 
@@ -103,6 +113,8 @@ body {
   color: white;
   left: 8%;
   width: 82%;
+  background-color: #b0b0b0;
+  background-image: url(Images/Backgrounds/black-linen-2.png);
 }
 
 .LeftSide {
@@ -113,11 +125,13 @@ body {
   border-left: thick;
   border-top: thick;
   border-bottom: thick;
+  text-align: center;
 }
 
 .RightSide {
   display:inline-block;
   vertical-align: top;
+  text-align: center;
 }
 
 
